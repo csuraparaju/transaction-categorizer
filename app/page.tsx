@@ -304,6 +304,14 @@ export default function TransactionCategorizer() {
           <footer className="mt-16 pt-8 border-t border-gray-200 text-center text-gray-500">
             <p>Built because connecting bank accounts to third-party services is unnecessary and risky.</p>
             <p className="mt-2">Your financial security matters more than convenience.</p>
+            <div className="mt-6 pt-4 border-t border-gray-100">
+              <p className="text-sm">
+                This website was fully generated and built using{' '}
+                <span className="font-semibold text-blue-600">Claude AI</span>{' '}
+                by{' '}
+                <span className="font-semibold text-gray-700">Krish Suraparaju</span>
+              </p>
+            </div>
           </footer>
         </div>
       </div>
